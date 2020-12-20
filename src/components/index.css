@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Armata');
+
+body {
+    
+    background: radial-gradient(1.5em 6.28571em at 1.95em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25)
+     50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0,
+    radial-gradient(1.5em 6.28571em at -0.45em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%,
+    rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 1.5em 5.5em, 
+     radial-gradient(2.3em 4.57143em at 2.99em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%,
+    rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 0 0, 
+     radial-gradient(2.3em 4.57143em at -0.69em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%,
+    rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 2.3em 4em, 
+     radial-gradient(3.5em 6.28571em at 4.55em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%,
+     rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, 
+     radial-gradient(3.5em 6.28571em at -1.05em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%,
+     rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 3.5em 5.5em, 
+     radial-gradient(hsla(5, 72%, 63%, 0.863),hsla(35, 90%, 61%, 0.856));
+    background-color: hsla(5, 53%, 63%, 0.5);
+    background-size: 1.5em 11em, 1.5em 11em, 2.3em 8em, 2.3em 8em, 3.5em 11em, 3.5em 11em, 100% 100%;
+    background-repeat: repeat;
+    
+    font-family: "Montserrat", sans-serif; 
+}
+
+h1 
+{
+    font-family: "Montserrat", sans-serif;
+    line-height: 0.7;
+    margin: 0 auto;
+    text-align: center;
+    width: 5.8em; 
+}
+
+ul 
+{
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
+
+.screen 
+{
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%; 
+}
+
+.screen header 
+{
+    position: relative;
+    top: 50%;
+    -webkit-transform: translatey(-50%);
+    transform: translatey(-50%); 
+}
+
+.screen h1 
+{
+    color: #fff; 
+}
+
+.screen-start 
+{
+    background-color: hsl(34, 53%, 82%);
+background-image: repeating-linear-gradient(45deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px, hsla(197, 62%, 11%, 0.5) 10px,                  
+  hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
+  hsla(197, 62%, 11%, 0.5) 40px, hsla(197, 62%, 11%, 0.5) 50px, hsla(197, 62%, 11%, 0) 50px, hsla(197, 62%, 11%, 0) 60px,                
+  hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 80px,
+  hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
+  hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 120px, hsla(197, 62%, 11%, 0.5) 120px, hsla(197, 62%, 11%, 0.5) 140px       
+  ),
+repeating-linear-gradient(135deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px, hsla(197, 62%, 11%, 0.5) 10px, 
+  hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
+  hsla(197, 62%, 11%, 0.5) 40px, hsla(197, 62%, 11%, 0.5) 50px, hsla(197, 62%, 11%, 0) 50px, hsla(197, 62%, 11%, 0) 60px,                
+  hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 80px,
+  hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
+  hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 140px, hsla(197, 62%, 11%, 0.5) 140px, hsla(197, 62%, 11%, 0.5) 160px       
+);
+
+}
+
+
+.screen-start h1
+{
+    font-size: 6em; 
+    
+}
+
+.screen-start h1 + .button 
+{
+    margin-top: 5em; 
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    display: inline-block;
+    margin: 2.5em 1em;
+}
+
+.button2 
+{
+    margin-top: 5em;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    display: inline-block;
+    margin: auto;
+    
+}
+
+.boardGame h1 
+{
+    margin-top: 0.8em;
+}
+
+
+.players {
+    color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: absolute;
+    top: 1rem;
+    width: 30%;
+    padding: 1.25em 0 1em;
+    transition: 1s; 
+    fill: rgba(0, 0, 0, 0.25); 
+}
+
+.player1
+{
+    right : 2.5%;
+    border-radius: 5px;
+    background: #ffdab0;
+}
+
+.player2
+{
+    left : 2.5%;
+    border-radius: 5px;
+    background: #ffdab0;
+}
+
+.player1.turn
+{
+    background-color: rgb(255, 187, 0);
+}
+
+.player2.turn
+{
+    background-color: #9e9e9e;
+}
+
+.boxes .box 
+{
+    background: #ddd;
+    border-radius: 5px;
+    width: 15vw;
+    height: 15vw;
+    float: left;
+    margin-right: 2.2vw;
+    margin-bottom: 1.5vw;
+    font-size: 10vw;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: 0.2s ease; 
+    background-size: 15vw 15vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.boxes 
+{
+    width: 51.6vw;
+    margin: 5em auto 0; 
+}
+
+.status
+{
+    position: relative;
+    padding: 4vw 0 2vw 0;
+    top : 2px;
+}
+
+.boardGame-row
+{
+    padding : .5vw;
+}
+
+.boardGame-col
+{
+    padding : .5vw;
+
+}
+
+.screen-win.tie
+{
+    background: radial-gradient(4rem,
+    rgba(255,255,255,0) 80%, 
+    #f18f33 80%, #e2af75 99%, 
+    rgba(224, 139, 12, 0.089) 
+    ) 0 0,
+    radial-gradient(4rem,
+    rgba(252, 182, 182, 0) 80%, 
+    #ecda70 80%, #ecda70 99%,  
+    rgba(255,255,255, 0) 
+    ) 4em 4em,
+    radial-gradient(4.7rem,
+    rgba(255,255,255,0) 50%, 
+    #d1ab43 50%,
+    #eeb6a0 75%, #e6c660 99%, 
+    rgba(255,255,255, 0) 
+    ) 4em 4em,
+    radial-gradient(4.7rem,
+    rgba(255,255,255,0) 50%, 
+    #eeda67 50%,
+    #fada9f 75%, #dde783 99%, 
+    rgba(255,255,255, 0) 
+    ) 0 0;
+  background-size: 8rem 8rem;
+  background-color: #f8d093;
+}
+
+.screen-win.ply1
+{
+    background: 
+    linear-gradient(180deg, rgba(207, 121, 59, 0) 20%, rgba(248, 184, 139,.1) 20%, rgba(248, 184, 139,.1) 40%, rgba(248, 184, 139,.2) 40%, rgba(248, 184, 139,.2) 60%, rgba(248, 184, 139,.4) 60%, rgba(248, 184, 139,.4) 80%, rgba(248, 184, 139,.5) 80%),
+    linear-gradient(45deg, rgba(138, 138, 136, 0.3) 20%, rgba(138, 138, 136, 0.3) 20%, rgba(138, 138, 136, 0.3) 40%, rgba(138, 138, 136, 0.3) 40%, rgba(138, 138, 136, 0.3) 60%, rgba(138, 138, 136, 0.3) 60%, rgba(138, 138, 136, 0.3) 80%, rgba(138, 138, 136, 0.3) 80%),
+    linear-gradient(-45deg, rgba(186, 237, 145,0) 20%, rgba(186, 237, 145,.1) 20%, rgba(186, 237, 145,.1) 40%, rgba(186, 237, 145,.2) 40%, rgba(186, 237, 145,.2) 60%, rgba(186, 237, 145,.4) 60%, rgba(186, 237, 145,.4) 80%, rgba(212, 170, 181, 0.6) 80%),
+    linear-gradient(90deg, rgba(178, 206, 254,0) 20%, rgba(178, 206, 254,.3) 20%, rgba(178, 206, 254,.3) 40%, rgba(178, 206, 254,.5) 40%, rgba(178, 206, 254,.5) 60%, rgba(178, 206, 254,.7) 60%, rgba(178, 206, 254,.7) 80%, rgba(20, 48, 97, 0.8) 80%),
+    linear-gradient(-90deg, rgba(235, 214, 125, 0) 20%, rgba(141, 135, 140, 0.4) 20%, rgba(141, 135, 140, 0.4) 40%, rgba(141, 135, 140, 0.4) 40%, rgba(141, 135, 140, 0.4) 60%, rgba(141, 135, 140, 0.4) 60%, rgba(2141, 135, 140, 0.4) 80%, rgba(141, 135, 140, 0.4) 80%),
+    linear-gradient(180deg, rgba(254, 163, 170,0) 20%, rgba(254, 163, 170,.4) 20%, rgba(254, 163, 170,.4) 40%, rgba(254, 163, 170,.6) 40%, rgba(254, 163, 170,.6) 60%, rgba(99, 43, 48, 0.8) 60%, rgba(223, 147, 112, 0.8) 80%, rgba(254, 163, 170,.9) 80%)
+;
+  background-color: rgb(245, 187, 80);
+  background-size: 100% 100%;
+  min-height: 100%;
+}
+
+.screen-win.ply2
+{
+
+    background: 
+    linear-gradient(180deg, rgba(248, 184, 139,0) 20%, rgba(248, 184, 139,.1) 20%, rgba(248, 184, 139,.1) 40%, rgba(248, 184, 139,.2) 40%, rgba(248, 184, 139,.2) 60%, rgba(248, 184, 139,.4) 60%, rgba(248, 184, 139,.4) 80%, rgba(248, 184, 139,.5) 80%),
+    linear-gradient(45deg, rgba(138, 138, 136, 0.3) 20%, rgba(138, 138, 136, 0.3) 20%, rgba(138, 138, 136, 0.3) 40%, rgba(138, 138, 136, 0.3) 40%, rgba(138, 138, 136, 0.3) 60%, rgba(138, 138, 136, 0.3) 60%, rgba(138, 138, 136, 0.3) 80%, rgba(138, 138, 136, 0.3) 80%),
+    linear-gradient(-45deg, rgba(186, 237, 145,0) 20%, rgba(186, 237, 145,.1) 20%, rgba(186, 237, 145,.1) 40%, rgba(186, 237, 145,.2) 40%, rgba(186, 237, 145,.2) 60%, rgba(186, 237, 145,.4) 60%, rgba(186, 237, 145,.4) 80%, rgba(186, 237, 145,.6) 80%),
+    linear-gradient(90deg, rgba(178, 206, 254,0) 20%, rgba(178, 206, 254,.3) 20%, rgba(178, 206, 254,.3) 40%, rgba(178, 206, 254,.5) 40%, rgba(178, 206, 254,.5) 60%, rgba(178, 206, 254,.7) 60%, rgba(178, 206, 254,.7) 80%, rgba(178, 206, 254,.8) 80%),
+    linear-gradient(-90deg, rgba(242, 162, 232,0) 20%, rgba(141, 135, 140, 0.4) 20%, rgba(141, 135, 140, 0.4) 40%, rgba(141, 135, 140, 0.4) 40%, rgba(141, 135, 140, 0.4) 60%, rgba(141, 135, 140, 0.4) 60%, rgba(2141, 135, 140, 0.4) 80%, rgba(141, 135, 140, 0.4) 80%),
+    linear-gradient(180deg, rgba(254, 163, 170,0) 20%, rgba(254, 163, 170,.4) 20%, rgba(254, 163, 170,.4) 40%, rgba(254, 163, 170,.6) 40%, rgba(254, 163, 170,.6) 60%, rgba(254, 163, 170,.8) 60%, rgba(254, 163, 170,.8) 80%, rgba(254, 163, 170,.9) 80%)
+;
+  background-color: rgb(175, 172, 172);
+  background-size: 100% 100%;
+  min-height: 100%;
+
+
+    
+}
+
+.screen-win p 
+{
+    font-size: 10vw;
+    font-weight: 700;
+    color: #fff;
+    position: relative; 
+}
+
+.screen-win p:before 
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: #fff;
+    font-size: 4em;
+    font-weight: 400;
+    line-height: 0;
+    z-index: -1; 
+}
+
+.screen-win .button
+{
+    background: #fff;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 1.25em 3em;
+    text-decoration: none;
+    -webkit-transition: 0.25s ease;
+    transition: 0.25s ease; 
+    font-size: 1em;
+    border: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.screen-win.ply1 .button
+{
+    color: rgb(255, 153, 0);
+}
+
+.screen-win.ply2 .button
+{
+    color: #9e9e9e;
+}
+
+.screen-win.tie .button
+{
+    color: #ffcb3d;
+}
+
+@media only screen and (max-width: 600px){
+
+.boxes 
+{
+    width: 78vw;
+}
+
+.boxes .box 
+{
+    width: 24vw;
+    height: 24vw;
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+}
+
+}
